@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 200px auto;
+    text-align: center;
+}
+
+#banner {
+    font-size: 100px;
+    text-transform: uppercase;
+    background-color: rgb(169, 139, 210);
+    color: white;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#clock {
+    background-color: rgb(90, 87, 87);
+    font-size: 250px;
+    color: white;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
