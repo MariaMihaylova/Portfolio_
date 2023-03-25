@@ -39,8 +39,8 @@ h1 {
 }
 
 #balloon-gallery div:nth-child(3n) {
-    background: #ffce00;
-    color: #ffce00;
+    background: #ff8c00;
+    color: #ff8c00;
 }
 
 #balloon-gallery div:nth-child(3n-1) {
@@ -49,8 +49,8 @@ h1 {
 }
 
 #balloon-gallery div:nth-child(5n) {
-    background: #8e7a8e;
-    color: #8e7a8e;
+    background: #956595;
+    color: #956595;
 }
 
 #balloon-gallery div:nth-child(13) {
@@ -59,8 +59,8 @@ h1 {
 }
 
 #balloon-gallery div:nth-child(10n) {
-    background: #ff3300;
-    color: #ff3300;
+    background: #476b5b;
+    color: #476b5b;
 }
 
 #balloon-gallery div:nth-child(4n) {
@@ -69,6 +69,6 @@ h1 {
 
 #yay-no-balloons {
     display: none;
-    color: #ff3300;
+    color: #d2a59a;
     font-size: 100px;
 }

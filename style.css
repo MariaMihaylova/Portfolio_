@@ -349,10 +349,11 @@ header.sticky {
 
 .contact {
     background: #000000;
-    display: grid;
     grid-template-areas: reperat(2, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 0.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .contact-text h4 {
