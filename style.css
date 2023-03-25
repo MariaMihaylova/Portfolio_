@@ -183,6 +183,7 @@ header.sticky {
 
 .main-text {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .main-text p {
@@ -206,7 +207,8 @@ header.sticky {
 
 .box {
     background: #222121;
-    padding: 35px 45px;
+    padding: 10px 45px;
+    padding-top: 0px;
     border-radius: 8px;
     transition: all.45s ease;
 }
