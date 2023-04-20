@@ -1,0 +1,22 @@
+{
+    "teamMembers": [{
+            "name": "Maria Mihaylova",
+            "title": "Student",
+            "image": "images/person1.avif",
+            "bio": "21 Years old"
+        },
+        {
+            "name": "Timo Haart",
+            "title": "Student",
+            "image": "images/person2.avif",
+            "bio": "21 Years old"
+        },
+        {
+            "name": "Sayem Taher",
+            "title": "Student",
+            "image": "images/person3.jpg",
+            "bio": "21 Years old"
+
+        }
+    ]
+}

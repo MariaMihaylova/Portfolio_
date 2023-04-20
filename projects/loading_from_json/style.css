@@ -1,0 +1,27 @@
+body {
+    background-color: #544f70;
+}
+
+h1 {
+    text-align: center;
+}
+
+#team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.member {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px;
+    background-color: #615e72;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
