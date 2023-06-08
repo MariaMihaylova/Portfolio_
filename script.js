@@ -14,3 +14,25 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navlist.classList.remove('open');
 };
+
+const sections = document.querySelectorAll('.section');
+
+const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.3
+};
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        } else {
+            entry.target.classList.remove('active');
+        }
+    });
+}, observerOptions);
+
+sections.forEach(section => {
+    observer.observe(section);
+});
