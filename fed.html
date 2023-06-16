@@ -73,7 +73,31 @@
 
 
     </section>
-    <!--Weather app --------------------->
+    <!--To do list --------------------->
+    <section class="about" id="section1">
+
+        <div class="about-img">
+            <img src="images/TodoList.png">
+        </div>
+
+        <div class="about-text">
+            <h2>To-do list</h2>
+            <h4></h4>
+            <p> For this application, a To-Do List is created. The JavaScript code begins by declaring variables inputBox and list, which are assigned the corresponding HTML elements based on their IDs. The addTask() function is triggered when the "ADD" button
+                is clicked. It verifies whether the input field (inputBox) is empty and displays an alert if no task is entered. If a task is provided, a new li element is generated, populated with the input value, appended to the ul element (list-container),
+                and accompanied by a delete button ( span) as its child. The list element is set to listen for click events. If the clicked element 's tag name is "LI", it toggles the "checked" class to indicate completion of the task. When the clicked
+                element's tag name is "SPAN", its parent li element is removed from the list. The saveData() function stores the HTML content of the ul element (list-container) in the browser's local storage under the "data" key, utilizing localStorage.setItem().
+                On page load, the showTask() function retrieves the saved data from local storage using localStorage.getItem() and sets the inner HTML of the ul element (list-container) to display the previously saved tasks..</p>
+
+            <a href="projects/CrappyToDoList/index.html" class="read " target="_blank ">Demo</a>
+            <a href="https://git.fhict.nl/I477553/mediadesignfed/-/tree/main/CrappyToDoList" target="_blank ">
+                <i class='bx bx-link-external'></i></a>
+
+        </div>
+
+
+    </section>
+    <!--Birthday countdown --------------------->
     <section class="about" id="section1">
 
         <div class="about-img">

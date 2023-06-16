@@ -1,0 +1,113 @@
+* {
+    font-style: 'Poppins', 'sans-serif';
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(248, 195, 117);
+    padding: 10px;
+}
+
+.todoapp {
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todoapp h1 {
+    color: black;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    background-color: #edeef0;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: rgb(230, 164, 42);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.list {
+    background: transparent;
+}
+
+.list li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+}
+
+.list li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(image3.png);
+    /*Change image later*/
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+.list li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+.list li.checked::before {
+    background-image: url(image2.png);
+}
+
+.list li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.list li span:hover {
+    background-color: #edeef0;
+}
